@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(45deg, pink,lightgreen,cyan,violet);
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+img{
+width: 500px;
+height: 500px;
+margin: auto;
+}
