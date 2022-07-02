@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -81,34 +81,23 @@
 
   <div style="text-align:center">
     <h1>Contact Me</h1>
-    <p>Swing by for a cup of coffee, or leave us a message:</p>
+    <p>Swing by for a cup of coffee, or leave me a message:</p>
   </div>
-  <div class="row">
-    <div class="column">
+
       
     </div>
-    <div class="column">
-      <form action="/action_page.php">
+   
+      <form id="target">
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required><br>
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
-        <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="australia">India</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select><br>
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea><br>
-        
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required><br>
+        <label for="feedback">Give your Feedback</label>
+        <textarea id="subject" name="subject" placeholder="Talk to me.." style="height:70px" required></textarea><br>
+        <button type="submit">Submit</button>
       </form>
-    </div>
-  </div>
 
-</div>
   
-
-    
+    <script src="app.js"></script>
   </body>
 </html>
